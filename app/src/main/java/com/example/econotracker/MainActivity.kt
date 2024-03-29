@@ -226,7 +226,7 @@ fun AddTransaction(prefs: PreferenceManager, navController: NavController){
                 Spacer(Modifier.height(20.dp))
 
                 Button(onClick = {
-
+                        //Function to save object in sharedPreferences
                         navController.popBackStack()
                     }) {
                         Text(text = "Add Transaction")
